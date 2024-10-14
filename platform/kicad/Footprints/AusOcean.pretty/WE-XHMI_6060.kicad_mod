@@ -1,0 +1,250 @@
+(footprint "WE-XHMI_6060"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WE-XHMI SMT Power Inductor<br></b><br>Size: </b>6060, SMT, 2pins<br>L X W X H = 6.65mm X 6.45mm X 5.8mm")
+	(property "Reference" "REF**"
+		(at 0 -4.508 0)
+		(layer "F.SilkS")
+		(uuid "49ef9d8d-fa3d-4eb4-b4a9-9842b76ed73a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-XHMI_6060"
+		(at 0 4.492 0)
+		(layer "F.Fab")
+		(uuid "fc4a97bb-6d92-448f-a768-425f03d3066f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2d412e3-339c-49f9-98f5-58361745f3e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68fb4be0-964a-47ab-9e10-e5a73cd67008")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad87f829-68e1-456a-81c4-97d3de4cd23f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.425 -3.325)
+		(end 3.425 -3.325)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a254454e-04b4-46cc-adcf-557924f625e6")
+	)
+	(fp_line
+		(start -3.425 3.325)
+		(end -3.425 -3.325)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5cf09d6-7763-4f29-99c6-bdc6ae475121")
+	)
+	(fp_line
+		(start 3.425 -3.325)
+		(end 3.425 3.325)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57367e5c-1b33-4a7f-92db-3dd66734d8ea")
+	)
+	(fp_line
+		(start 3.425 3.325)
+		(end -3.425 3.325)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87d53404-4224-4a8b-878e-3221cd4a5b14")
+	)
+	(fp_circle
+		(center -4.2 -2.5)
+		(end -4 -2.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3bfad520-8281-4d62-b5b6-99d939243330")
+	)
+	(fp_poly
+		(pts
+			(xy -3.625 -3.525) (xy 3.625 -3.525) (xy 3.625 3.525) (xy -3.625 3.525)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "af9f9b0b-89d0-44c7-aec4-bd6726926f3e")
+	)
+	(fp_line
+		(start -3.325 -3.225)
+		(end 3.325 -3.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a23f6af7-aa64-4df5-926c-d54bfae634f2")
+	)
+	(fp_line
+		(start -3.325 3.225)
+		(end -3.325 -3.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70c8f202-5092-47d7-bff7-f369ad833e26")
+	)
+	(fp_line
+		(start 3.325 -3.225)
+		(end 3.325 3.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c588e79-f423-4daa-ae7f-4b6a9c3b3990")
+	)
+	(fp_line
+		(start 3.325 3.225)
+		(end -3.325 3.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c056848-502d-4711-9d06-b008bd6d2718")
+	)
+	(pad "1" smd rect
+		(at 0 -2)
+		(size 5.5 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "3658a051-09c8-42cc-9b63-8d671f317075")
+	)
+	(pad "2" smd rect
+		(at 0 2)
+		(size 5.5 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "e4696290-68dd-4c5d-a620-71768cabd765")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "10369603-2051-4615-89b2-27efab451329")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.1)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -3.225 -1.225) (xy 3.225 -1.225) (xy 3.225 1.225) (xy -3.225 1.225)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "11987ed5-dca0-4300-aa84-6d923c61e97c")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.1)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -3.225 -1.225) (xy 3.225 -1.225) (xy 3.225 1.225) (xy -3.225 1.225)
+			)
+		)
+	)
+	(model "/home/david/Documents/ausocean/rig/platform/kicad/models/WE-XHMI-6060_rev1.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
