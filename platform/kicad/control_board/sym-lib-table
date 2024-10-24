@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AusOcean")(type "KiCad")(uri "/home/david/Documents/ausocean/rig/platform/kicad/Symbols/AusOcean.kicad_sym")(options "")(descr ""))
+)

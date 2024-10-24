@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AusOcean")(type "KiCad")(uri "/home/david/Documents/ausocean/rig/platform/kicad/Footprints/AusOcean.pretty")(options "")(descr ""))
+)
