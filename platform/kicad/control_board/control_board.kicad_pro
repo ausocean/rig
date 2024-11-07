@@ -597,8 +597,16 @@
       "Root"
     ],
     [
-      "0626e775-86df-4156-8b81-537b056df5a8",
+      "2651b86c-0fa5-4d3d-bbf0-9f89809a43e2",
       "Stepdown"
+    ],
+    [
+      "dbf6a82f-5264-47cb-b17a-4f6c5d8ea6fa",
+      "Power_In"
+    ],
+    [
+      "5c908c9f-4997-4e6c-84f5-82f8ec5dbea2",
+      "Network_Power"
     ]
   ],
   "text_variables": {}

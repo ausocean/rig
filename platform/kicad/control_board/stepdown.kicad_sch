@@ -1008,14 +1008,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "7ecf3bf0-5c1a-4a6e-a2e6-1ecace5a4762")
+			(uuid "615a770f-18e9-4935-8fdb-c169c0cae961")
 		)
 		(pin "1"
-			(uuid "11887d0b-c832-4d4d-83b8-693eb37da3bf")
+			(uuid "82e64b86-4544-415e-9ca3-820622d99a5a")
 		)
 		(instances
-			(project ""
-				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/0626e775-86df-4156-8b81-537b056df5a8"
+			(project "control_board"
+				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "C3")
 					(unit 1)
 				)
@@ -1078,14 +1078,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "4502b867-a9f1-43fe-94a8-aa2a48fa5ce2")
+			(uuid "db04aec1-46b3-4f9b-aa02-178a71b1c22b")
 		)
 		(pin "1"
-			(uuid "de0fdc59-b32b-42b2-8438-911f3b1cdf3e")
+			(uuid "8f21389f-30ff-4bcb-ad0f-fb2571f0507e")
 		)
 		(instances
 			(project "control_board"
-				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/0626e775-86df-4156-8b81-537b056df5a8"
+				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "C5")
 					(unit 1)
 				)
@@ -1148,26 +1148,26 @@
 			)
 		)
 		(pin "5"
-			(uuid "85099abd-d1c4-4434-a3a3-f65ce5aeef23")
+			(uuid "d56b6485-066a-46ae-9690-8e6b6931e761")
 		)
 		(pin "4"
-			(uuid "ffcfed91-6915-4cfe-a3df-9b4c50603335")
+			(uuid "f241de97-c510-421c-b7d9-33db4ff61b40")
 		)
 		(pin "3"
-			(uuid "fcdac659-2b00-423e-b382-751c8a46090a")
+			(uuid "50edab22-b1fe-41f5-8bd7-de71e995d5c1")
 		)
 		(pin "1"
-			(uuid "f9e7786f-eac0-49ed-8ac3-ae03bbd62297")
+			(uuid "2f0007b0-afaa-4e97-8697-81e91f6efc56")
 		)
 		(pin "6"
-			(uuid "fe5186e4-7d28-4179-ab3f-3feed3a691dd")
+			(uuid "953a4688-d08a-4ba8-bd06-4fda51f3e3df")
 		)
 		(pin "2"
-			(uuid "d6afc47f-7d4c-41d0-862f-015497045b3f")
+			(uuid "bbb79a5e-976f-4c6e-a5f0-489db5386cf1")
 		)
 		(instances
-			(project ""
-				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/0626e775-86df-4156-8b81-537b056df5a8"
+			(project "control_board"
+				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "U3")
 					(unit 1)
 				)
@@ -1228,14 +1228,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7b46e8c-8a22-4554-b179-365738617d44")
+			(uuid "a3fc726d-9f9d-430f-85b1-ccb033f3489d")
 		)
 		(pin "2"
-			(uuid "5993bad6-e2b1-4f80-804f-5d49455475c4")
+			(uuid "dd1abbe3-49e1-47fa-8dce-89917de26ca5")
 		)
 		(instances
-			(project ""
-				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/0626e775-86df-4156-8b81-537b056df5a8"
+			(project "control_board"
+				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "L1")
 					(unit 1)
 				)
@@ -1298,14 +1298,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a9434915-4a90-4038-97e3-93a1f568bf5a")
+			(uuid "943a9f7a-df3b-435e-9291-465540a8d0ae")
 		)
 		(pin "1"
-			(uuid "d8359376-7713-4ed2-b0cc-72cbc7932181")
+			(uuid "1e8a1306-25f5-4e47-b496-3575ca1873d2")
 		)
 		(instances
 			(project "control_board"
-				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/0626e775-86df-4156-8b81-537b056df5a8"
+				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "C4")
 					(unit 1)
 				)
@@ -1368,14 +1368,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "8e700dac-33a7-4270-83f1-ee5e87c0ae51")
+			(uuid "f9e41998-defc-44e5-8545-390ebdd6b1e4")
 		)
 		(pin "1"
-			(uuid "43a8346e-ebb4-4fbd-bc4c-d29befca1596")
+			(uuid "08d3527a-4137-4930-867e-0f2cf658d1ba")
 		)
 		(instances
 			(project "control_board"
-				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/0626e775-86df-4156-8b81-537b056df5a8"
+				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "C1")
 					(unit 1)
 				)
@@ -1438,14 +1438,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "d27d78d2-27c8-44c0-a38d-59388eeab09d")
+			(uuid "65f79c21-e522-4190-a1e3-2687bfc7d401")
 		)
 		(pin "1"
-			(uuid "d4b20111-e887-4ef8-be7f-5b4e55da96c7")
+			(uuid "7b5ba1bd-013c-40c1-9eaf-6f82db503c78")
 		)
 		(instances
 			(project "control_board"
-				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/0626e775-86df-4156-8b81-537b056df5a8"
+				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "C2")
 					(unit 1)
 				)
