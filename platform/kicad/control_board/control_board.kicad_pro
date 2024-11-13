@@ -85,8 +85,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -97,12 +97,12 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
+        "silk_over_copper": "warning",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
         "starved_thermal": "ignore",
-        "text_height": "ignore",
+        "text_height": "warning",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -116,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.18,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
@@ -486,7 +486,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "control_board.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -607,6 +607,10 @@
     [
       "5c908c9f-4997-4e6c-84f5-82f8ec5dbea2",
       "Network_Power"
+    ],
+    [
+      "c0c6b780-ff0d-4a50-9603-e222196835c2",
+      "Watchdog"
     ]
   ],
   "text_variables": {}
