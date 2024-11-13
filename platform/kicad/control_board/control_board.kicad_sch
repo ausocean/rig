@@ -3900,10 +3900,6 @@
 		(uuid "e11c8b7e-dda5-474f-848e-10962eacbd9d")
 	)
 	(no_connect
-		(at 62.23 33.02)
-		(uuid "e1ba50c3-47a5-47f5-bcc9-7b5f1bcd75eb")
-	)
-	(no_connect
 		(at 265.43 149.86)
 		(uuid "f4cbf820-e813-4f80-9243-840fc72dc602")
 	)
@@ -4914,6 +4910,18 @@
 			(type none)
 		)
 		(uuid a19656ab-262d-438b-bb38-8f0f8e1b111b)
+	)
+	(rectangle
+		(start 219.71 50.8)
+		(end 275.59 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b190599f-4cc4-48a9-95bd-86129a1ebd0a)
 	)
 	(rectangle
 		(start 187.96 91.44)
@@ -9629,6 +9637,18 @@
 		)
 		(uuid "8ceb9475-3533-4926-b24d-f7bb2a8702fd")
 	)
+	(text "Watchdog"
+		(exclude_from_sim no)
+		(at 240.03 49.784 0)
+		(effects
+			(font
+				(face "Ubuntu")
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "a42d1ea4-73c6-4629-841c-2baaae57f1ee")
+	)
 	(text "Control Board"
 		(exclude_from_sim no)
 		(at 187.96 191.77 0)
@@ -9736,6 +9756,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN"
+		(shape input)
+		(at 257.81 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0351a76c-54c9-42f5-b5fd-ea11f2b0b8e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.8818 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10204,6 +10246,28 @@
 			)
 		)
 	)
+	(global_label "WD_EN*"
+		(shape input)
+		(at 128.27 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56bb33da-3365-42d1-af6e-522c14b6150e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.9872 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Navlight"
 		(shape input)
 		(at 128.27 53.34 0)
@@ -10248,6 +10312,28 @@
 			)
 		)
 	)
+	(global_label "WD_EN*"
+		(shape input)
+		(at 240.03 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b9d45f5-1b93-4882-a44c-a08f5e40075c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.3128 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D1_Rx-"
 		(shape input)
 		(at 36.83 134.62 0)
@@ -10266,6 +10352,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WD_IN"
+		(shape input)
+		(at 240.03 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6353dced-2db1-4522-99a7-4815f5e84fa0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.7025 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10308,6 +10416,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN"
+		(shape input)
+		(at 62.23 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "761b71b0-69c6-499b-bdab-78089b30b1a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.1582 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10568,6 +10698,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VIN"
+		(shape input)
+		(at 248.92 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a365d50c-82a3-4b56-bf9e-daea0ae6a4d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11242,6 +11392,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WD_IN"
+		(shape input)
+		(at 128.27 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc4c803c-13a6-4e4c-8671-74d01643ab33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5975 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14096,6 +14268,72 @@
 			(project "control_board"
 				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "569a59f1-d367-45d3-8ccd-2c6d37f3e4b8")
+		(property "Reference" "#PWR014"
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "188d8c4c-4a3c-4f22-a47b-85d59b950bf6")
+		)
+		(instances
+			(project "control_board"
+				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -17336,6 +17574,94 @@
 			(project "control_board"
 				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 58.42)
+		(size 17.78 11.43)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0c6b780-ff0d-4a50-9603-e222196835c2")
+		(property "Sheetname" "Watchdog"
+			(at 239.268 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "watchdog.kicad_sch"
+			(at 240.03 69.4186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "*EN" input
+			(at 240.03 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d432d048-91a3-4121-ba50-9d4d6ff2d21c")
+		)
+		(pin "WDI" input
+			(at 240.03 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0841298-3cb1-4d61-ad37-0c9c023c56de")
+		)
+		(pin "5V" input
+			(at 248.92 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cee19b56-3808-4d8a-a289-7ee9c71247ea")
+		)
+		(pin "GND" bidirectional
+			(at 248.92 69.85 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a744cb7b-de07-494f-bb32-baaf210e277d")
+		)
+		(pin "*WDO" output
+			(at 257.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24f58a75-5cab-4b1d-a561-a1e1ad07f836")
+		)
+		(instances
+			(project "control_board"
+				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3"
+					(page "5")
 				)
 			)
 		)
