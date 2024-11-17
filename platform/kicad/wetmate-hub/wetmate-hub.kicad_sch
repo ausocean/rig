@@ -536,7 +536,7 @@
 		)
 		(uuid "e2114f6f-c564-4533-8a85-687983118a3d")
 	)
-	(label "24V"
+	(label "GND"
 		(at 129.54 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -545,9 +545,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "057f36fd-93e7-4e62-8ca1-22822da22015")
+		(uuid "69884781-e5a9-40c0-b90b-24ce43826bf0")
 	)
-	(label "GND"
+	(label "24V"
 		(at 129.54 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -556,7 +556,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8a04ab0e-41c4-4888-8610-f184417bf435")
+		(uuid "e748f527-8129-418a-b200-f51644a72d2a")
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
