@@ -1,4 +1,4 @@
-24104996723939163
+24110211653265756
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97,6 +97,27 @@ AP63205WU-7
 0
 6
 6
+AusOcean
+SOT23-5L_STM
+
+STWD100YNYWY3F 
+0
+5
+5
+AusOcean
+SOT23-5L_STM-L
+
+STWD100YNYWY3F 
+0
+5
+5
+AusOcean
+SOT23-5L_STM-M
+
+STWD100YNYWY3F 
+0
+5
+5
 AusOcean
 USB_A_2.0_CONN
 
