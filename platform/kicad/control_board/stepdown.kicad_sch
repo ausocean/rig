@@ -556,16 +556,16 @@
 		(uuid "348a8017-abd2-4343-aaf6-735dc8ae6e1b")
 	)
 	(junction
-		(at 165.1 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "374a2536-c56c-492b-94b6-2bae3751dc83")
-	)
-	(junction
 		(at 92.71 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b24a993-b26b-45e8-b7d8-8cf9f5145d52")
+	)
+	(junction
+		(at 189.23 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83d2e2c3-c44e-4453-a5f5-d7f775af93c5")
 	)
 	(junction
 		(at 210.82 93.98)
@@ -581,13 +581,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 87.63) (xy 179.07 87.63)
+			(xy 176.53 92.71) (xy 179.07 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01e771b9-8ad7-4052-9384-914396b873b8")
+		(uuid "070b84b6-cabb-4cbd-b807-1b009ac57bac")
 	)
 	(wire
 		(pts
@@ -621,23 +621,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 87.63) (xy 165.1 92.71)
+			(xy 189.23 95.25) (xy 191.77 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "166d3536-f428-4abd-830a-d2bc56f249f1")
-	)
-	(wire
-		(pts
-			(xy 179.07 93.98) (xy 179.07 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3deb3245-734a-4766-bd80-0ccca8951f51")
+		(uuid "4d1b976b-5f2f-497c-adf2-e81ee96def6a")
 	)
 	(wire
 		(pts
@@ -651,17 +641,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 87.63) (xy 179.07 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "523b0c0c-5f20-47eb-8552-c1c87c743d8e")
-	)
-	(wire
-		(pts
-			(xy 187.96 95.25) (xy 191.77 95.25)
+			(xy 187.96 95.25) (xy 189.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -681,7 +661,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 78.74) (xy 118.11 92.71)
+			(xy 116.84 78.74) (xy 116.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -731,7 +711,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 118.11 78.74)
+			(xy 116.84 78.74) (xy 189.23 78.74)
 		)
 		(stroke
 			(width 0)
@@ -741,7 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 92.71) (xy 165.1 92.71)
+			(xy 161.29 92.71) (xy 171.45 92.71)
 		)
 		(stroke
 			(width 0)
@@ -771,13 +751,23 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 92.71) (xy 120.65 92.71)
+			(xy 116.84 92.71) (xy 120.65 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a642f209-1797-46e9-b34d-32b2f0747ee0")
+	)
+	(wire
+		(pts
+			(xy 189.23 78.74) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7ec386-e195-42b9-b109-107dea0a076a")
 	)
 	(wire
 		(pts
@@ -811,13 +801,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 87.63) (xy 165.1 78.74)
+			(xy 179.07 92.71) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db62fd8e-1837-4d08-9f4b-ffe45c4b9a35")
+		(uuid "d9d99324-dd0f-4397-9bc9-1b00a22f609e")
 	)
 	(wire
 		(pts
@@ -955,7 +945,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 179.07 91.44 0)
+		(at 173.99 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -963,7 +953,7 @@
 		(dnp no)
 		(uuid "1d7a517b-74a2-47c1-a018-de1b78648fba")
 		(property "Reference" "C3"
-			(at 174.498 90.932 0)
+			(at 172.72 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +962,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 172.974 92.71 0)
+			(at 174.244 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +971,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 179.07 91.44 0)
+			(at 173.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 91.44 0)
+			(at 173.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +989,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 179.07 91.44 0)
+			(at 173.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,6 +1004,12 @@
 			(uuid "82e64b86-4544-415e-9ca3-820622d99a5a")
 		)
 		(instances
+			(project "control_board"
+				(path "/8dfa5814-59de-42fa-a019-7b76c06633d1/ed256e33-7579-48c9-89db-6cd9c2f02edb"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "control_board"
 				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "C3")
@@ -1084,6 +1080,12 @@
 			(uuid "8f21389f-30ff-4bcb-ad0f-fb2571f0507e")
 		)
 		(instances
+			(project "control_board"
+				(path "/8dfa5814-59de-42fa-a019-7b76c06633d1/ed256e33-7579-48c9-89db-6cd9c2f02edb"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "control_board"
 				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "C5")
@@ -1167,6 +1169,12 @@
 		)
 		(instances
 			(project "control_board"
+				(path "/8dfa5814-59de-42fa-a019-7b76c06633d1/ed256e33-7579-48c9-89db-6cd9c2f02edb"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project "control_board"
 				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "U3")
 					(unit 1)
@@ -1192,7 +1200,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8u"
+		(property "Value" "4.7u"
 			(at 185.42 92.71 90)
 			(effects
 				(font
@@ -1234,6 +1242,12 @@
 			(uuid "dd1abbe3-49e1-47fa-8dce-89917de26ca5")
 		)
 		(instances
+			(project "control_board"
+				(path "/8dfa5814-59de-42fa-a019-7b76c06633d1/ed256e33-7579-48c9-89db-6cd9c2f02edb"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "control_board"
 				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "L1")
@@ -1305,6 +1319,12 @@
 		)
 		(instances
 			(project "control_board"
+				(path "/8dfa5814-59de-42fa-a019-7b76c06633d1/ed256e33-7579-48c9-89db-6cd9c2f02edb"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "control_board"
 				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "C4")
 					(unit 1)
@@ -1375,6 +1395,12 @@
 		)
 		(instances
 			(project "control_board"
+				(path "/8dfa5814-59de-42fa-a019-7b76c06633d1/ed256e33-7579-48c9-89db-6cd9c2f02edb"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "control_board"
 				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "C1")
 					(unit 1)
@@ -1444,6 +1470,12 @@
 			(uuid "7b5ba1bd-013c-40c1-9eaf-6f82db503c78")
 		)
 		(instances
+			(project "control_board"
+				(path "/8dfa5814-59de-42fa-a019-7b76c06633d1/ed256e33-7579-48c9-89db-6cd9c2f02edb"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "control_board"
 				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3/5c908c9f-4997-4e6c-84f5-82f8ec5dbea2/2651b86c-0fa5-4d3d-bbf0-9f89809a43e2"
 					(reference "C2")
