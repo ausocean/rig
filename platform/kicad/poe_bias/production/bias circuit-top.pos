@@ -1,0 +1,16 @@
+### Footprint positions - created on 2024-10-18T08:54:52+1030 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                                                        PosX       PosY       Rot  Side
+C1        1uF_50V               C_1206_3216Metric                                           15.0000    19.0000    0.0000  top
+C2        1uF_50V               C_1206_3216Metric                                           15.0000    14.0000    0.0000  top
+C3        1uF_50V               C_1206_3216Metric                                           15.0000     9.0000    0.0000  top
+C4        1uF_50V               C_1206_3216Metric                                           15.0000     4.0000    0.0000  top
+J1        Screw_Terminal_01x06  TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal     6.0000    29.0000  -90.0000  top
+J2        Screw_Terminal_01x06  TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal    29.0000     4.0000   90.0000  top
+R1        100k_0.1W_1%          R_0603_1608Metric                                           20.0000    19.0000    0.0000  top
+R2        100k_0.1W_1%          R_0603_1608Metric                                           20.0000    14.0000    0.0000  top
+R3        100k_0.1W_1%          R_0603_1608Metric                                           20.0000     9.0000    0.0000  top
+R4        100k_0.1W_1%          R_0603_1608Metric                                           20.0000     4.0000    0.0000  top
+## End
