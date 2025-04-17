@@ -12064,6 +12064,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 33.02 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e0cf550-4563-4960-b328-9786469ace60")
+		(property "Reference" "J5"
+			(at 33.02 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 33.02 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+			(at 33.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 33.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c67258e2-dec0-4765-9c60-d74465f155a0")
+		)
+		(pin "5"
+			(uuid "d7cd3e57-499c-413f-823f-d3a34b87d40a")
+		)
+		(pin "3"
+			(uuid "530ddc20-ab73-4770-a883-d2c33b17f2bc")
+		)
+		(pin "2"
+			(uuid "09c44eb4-6349-448c-8792-1fcd6edd57ec")
+		)
+		(pin "1"
+			(uuid "2e0b348a-99b4-4658-9add-77505c8a7c83")
+		)
+		(instances
+			(project "control_board"
+				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 165.1 90)
 		(unit 1)
@@ -12470,83 +12546,6 @@
 			(project "control_board"
 				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 33.02 92.71 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40ca83b5-9a1e-429e-bc4f-9af4ddc6cd71")
-		(property "Reference" "J5"
-			(at 33.02 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 33.02 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9adb2a44-8e2f-416c-a3d8-d781354660d7")
-		)
-		(pin "5"
-			(uuid "b0e83a11-00ce-49d9-b87d-d614e4f48e4b")
-		)
-		(pin "3"
-			(uuid "4a0b94d7-6635-4a1b-b112-0d33636ca1bf")
-		)
-		(pin "2"
-			(uuid "3296dbcf-4a8a-45bd-b29f-2f09e9f049e5")
-		)
-		(pin "1"
-			(uuid "592f9fc7-84d4-417d-859d-54fc65183cd7")
-		)
-		(instances
-			(project "control_board"
-				(path "/bacab6d6-2a0b-4208-9256-c826bcae29b3"
-					(reference "J5")
 					(unit 1)
 				)
 			)
