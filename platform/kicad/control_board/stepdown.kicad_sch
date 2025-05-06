@@ -1260,7 +1260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AusOcean:WE-XHMI_6060"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0630"
 			(at 177.8 95.25 0)
 			(effects
 				(font
