@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "dfa6884b-66fa-4632-85ae-61ce25d58044")
 	(paper "A4")
+	(title_block
+		(title "Fiddler Ray Speaker Unit V1")
+		(date "2025-11-03")
+		(rev "A")
+		(company "The Australian Ocean Laboratory")
+	)
 	(lib_symbols
 		(symbol "AusOcean:5033981892"
 			(pin_names
@@ -1253,21 +1259,65 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 142.24 73.66)
+		(end 208.28 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 29254a1b-d33c-411a-b7e7-28e4c87f73de)
+	)
+	(rectangle
+		(start 99.06 81.28)
+		(end 132.08 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39f7de6e-9dee-4f9f-b4a9-08eeaff2ec03)
+	)
+	(text "Socket"
+		(exclude_from_sim no)
+		(at 147.828 72.644 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "b6a82285-6752-4c37-867e-653b91816cce")
+	)
+	(text "Outputs"
+		(exclude_from_sim no)
+		(at 105.664 79.756 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "fce621e1-42a0-4a4f-89f0-e15b35d41bbc")
+	)
 	(junction
-		(at 128.27 87.63)
+		(at 151.13 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42086ad6-2474-422c-8475-1f0af4f4669a")
 	)
 	(junction
-		(at 128.27 92.71)
+		(at 151.13 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6eac5963-2b74-4957-82c9-b80b68de153b")
 	)
 	(wire
 		(pts
-			(xy 88.9 83.82) (xy 96.52 83.82)
+			(xy 111.76 92.71) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1277,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 96.52 88.9)
+			(xy 111.76 97.79) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1337,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 96.52 91.44)
+			(xy 111.76 100.33) (xy 119.38 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1297,7 +1347,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 87.63) (xy 143.51 87.63)
+			(xy 151.13 92.71) (xy 166.37 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1307,7 +1357,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 86.36) (xy 88.9 86.36)
+			(xy 119.38 95.25) (xy 111.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1317,7 +1367,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 143.51 92.71)
+			(xy 151.13 97.79) (xy 166.37 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1327,7 +1377,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 93.98) (xy 96.52 93.98)
+			(xy 111.76 102.87) (xy 119.38 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +1386,7 @@
 		(uuid "e18261ce-d88d-4d5e-b3ab-5cc0cacb4939")
 	)
 	(label "SD_DET"
-		(at 143.51 100.33 180)
+		(at 166.37 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1346,7 +1396,7 @@
 		(uuid "2e8f9552-1fe0-4a03-b5bd-9979bf423fae")
 	)
 	(label "HSPI_CLK"
-		(at 88.9 88.9 180)
+		(at 111.76 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1356,7 +1406,7 @@
 		(uuid "39177851-9b9b-4d61-94f5-657db65edd3c")
 	)
 	(label "HSPI_CS"
-		(at 88.9 83.82 180)
+		(at 111.76 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1366,7 +1416,7 @@
 		(uuid "3c5641bd-b82d-4be6-99a8-d67107e0288c")
 	)
 	(label "HSPI_MISO"
-		(at 143.51 95.25 180)
+		(at 166.37 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1376,7 +1426,7 @@
 		(uuid "4e8ae807-7058-4728-b6b1-fa905fd1836d")
 	)
 	(label "HSPI_MOSI"
-		(at 143.51 85.09 180)
+		(at 166.37 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1386,7 +1436,7 @@
 		(uuid "692969dd-ed5d-49ce-8ef2-82ba9acee361")
 	)
 	(label "HSPI_MOSI"
-		(at 88.9 86.36 180)
+		(at 111.76 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1396,7 +1446,7 @@
 		(uuid "6a91cc15-a1ce-4a41-85db-551b5515fa46")
 	)
 	(label "HSPI_MISO"
-		(at 88.9 91.44 180)
+		(at 111.76 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1406,7 +1456,7 @@
 		(uuid "6bf35711-bb37-4698-af58-06b4224f76cb")
 	)
 	(label "SD_DET"
-		(at 88.9 93.98 180)
+		(at 111.76 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1416,7 +1466,7 @@
 		(uuid "784a7c84-467e-4849-a3a7-44ecc3293f1d")
 	)
 	(label "HSPI_CLK"
-		(at 143.51 90.17 180)
+		(at 166.37 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1426,7 +1476,7 @@
 		(uuid "91db03f9-f3e6-4852-9fee-5501e4df2924")
 	)
 	(label "HSPI_CS"
-		(at 143.51 82.55 180)
+		(at 166.37 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1437,7 +1487,7 @@
 	)
 	(hierarchical_label "CLK"
 		(shape input)
-		(at 96.52 88.9 0)
+		(at 119.38 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1448,7 +1498,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape output)
-		(at 96.52 91.44 0)
+		(at 119.38 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1459,7 +1509,7 @@
 	)
 	(hierarchical_label "SD_DETECT"
 		(shape output)
-		(at 96.52 93.98 0)
+		(at 119.38 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1470,7 +1520,7 @@
 	)
 	(hierarchical_label "CS"
 		(shape input)
-		(at 96.52 83.82 0)
+		(at 119.38 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1481,7 +1531,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 96.52 86.36 0)
+		(at 119.38 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1492,7 +1542,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 128.27 90.17 0)
+		(at 151.13 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1501,7 +1551,7 @@
 		(fields_autoplaced yes)
 		(uuid "03c35b78-325c-4826-82f1-56dd9f4b5dac")
 		(property "Reference" "C1"
-			(at 130.81 88.9062 0)
+			(at 153.67 93.9862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1560,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 130.81 91.4462 0)
+			(at 153.67 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1569,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 128.27 90.17 0)
+			(at 151.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 90.17 0)
+			(at 151.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1587,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 128.27 90.17 0)
+			(at 151.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1612,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 92.71 0)
+		(at 151.13 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1571,7 +1621,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c6dc9c1-e1f6-4ca4-9ba5-8f3fd9ffbc93")
 		(property "Reference" "#PWR04"
-			(at 128.27 99.06 0)
+			(at 151.13 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1630,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 97.79 0)
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 92.71 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,7 +1647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 92.71 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,7 +1656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 92.71 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1678,7 @@
 	)
 	(symbol
 		(lib_id "AusOcean:5033981892")
-		(at 143.51 80.01 0)
+		(at 166.37 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1637,7 +1687,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d78d8f1-1f75-4ae2-ac99-20750ba7d5c5")
 		(property "Reference" "J1"
-			(at 157.48 90.1699 0)
+			(at 180.34 95.2499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1646,7 +1696,7 @@
 			)
 		)
 		(property "Value" "5033981892"
-			(at 157.48 92.7099 0)
+			(at 180.34 97.7899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1655,7 +1705,7 @@
 			)
 		)
 		(property "Footprint" "AusOcean:CONN_503398-1892_MOL"
-			(at 143.51 80.01 0)
+			(at 166.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1715,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5033981892?display=pdf"
-			(at 143.51 80.01 0)
+			(at 166.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 80.01 0)
+			(at 166.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1774,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 128.27 87.63 0)
+		(at 151.13 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1733,7 +1783,7 @@
 		(fields_autoplaced yes)
 		(uuid "96f98c35-9f90-4a6e-b7a3-95af73f3b43a")
 		(property "Reference" "#PWR03"
-			(at 128.27 91.44 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +1792,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 128.27 82.55 0)
+			(at 151.13 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 87.63 0)
+			(at 151.13 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 87.63 0)
+			(at 151.13 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1818,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 128.27 87.63 0)
+			(at 151.13 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1840,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 102.87 0)
+		(at 166.37 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1799,7 +1849,7 @@
 		(fields_autoplaced yes)
 		(uuid "de922930-82cc-4dfe-adf8-772f81c6562b")
 		(property "Reference" "#PWR05"
-			(at 143.51 109.22 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1858,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 107.95 0)
+			(at 166.37 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +1866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 102.87 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 102.87 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 102.87 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
