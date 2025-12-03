@@ -3499,6 +3499,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 187.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C77020"
+			(at 187.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ef9150b-5214-4848-b531-c9b9f3272b8d")
 		)
@@ -3635,6 +3653,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C107133"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91934942-fd64-4f72-821b-36e9e8305b1f")
 		)
@@ -3702,6 +3738,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 177.8 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5359264"
+			(at 177.8 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9677c6d9-267a-4f48-b35a-a3ac4c795810")
 		)
@@ -3745,7 +3799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 176.2252 58.42 0)
 			(effects
 				(font
@@ -3764,6 +3818,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 175.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 175.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C784103"
 			(at 175.26 54.61 0)
 			(effects
 				(font
@@ -3908,6 +3980,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "291bfc29-5fae-4d6e-9500-d08b07626d03")
 		)
@@ -4044,6 +4134,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 200.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 200.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b4668d4-7ca7-49c8-bdbd-91cd5af634a0")
 		)
@@ -4114,6 +4222,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 86.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15849"
+			(at 86.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f83a42c-c91a-4c0b-b8f9-f2eff1812908")
 		)
@@ -4134,7 +4260,7 @@
 		(at 105.41 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "45b0901d-d036-4b85-8e3a-e3972e4c2717")
@@ -4175,6 +4301,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 105.41 113.03 0)
 			(effects
 				(font
@@ -4266,7 +4410,7 @@
 		(at 119.38 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4f0c9efe-a656-4057-b286-12e619370aed")
@@ -4307,6 +4451,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 119.38 105.41 0)
 			(effects
 				(font
@@ -4448,6 +4610,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C359223"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "979d80fc-0b06-4fef-a355-6d734474ef05")
 		)
@@ -4468,7 +4648,7 @@
 		(at 101.6 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5c99614a-c32e-4c7f-a38c-50e1a37b8619")
@@ -4509,6 +4689,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 101.6 113.03 0)
 			(effects
 				(font
@@ -4916,6 +5114,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 162.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C359223"
+			(at 162.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "50b88adc-ef6f-4752-866e-45c510a04528")
 		)
@@ -5023,7 +5239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 128.27 47.498 90)
 			(effects
 				(font
@@ -5043,6 +5259,24 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 128.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 128.27 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14709"
+			(at 128.27 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,6 +5351,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 165.1 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64705"
+			(at 165.1 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2874913e-34b5-4db2-b1da-23bc96f1f407")
 		)
@@ -5179,6 +5431,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 181.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C107133"
 			(at 181.61 120.65 0)
 			(effects
 				(font
@@ -5386,6 +5656,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 165.1 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64705"
+			(at 165.1 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "195ea29a-4157-4f73-825d-ddc54d1a30df")
 		)
@@ -5522,6 +5810,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15849"
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f3f23c95-08bd-43f9-b4fb-8cf4f5cb3787")
 		)
@@ -5582,6 +5888,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 165.1 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64705"
+			(at 165.1 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,6 +5983,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 99.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19666"
+			(at 99.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0a820cbd-d338-4b65-b31a-e24c95afe5f5")
 		)
@@ -5719,6 +6061,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 177.8 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5359264"
+			(at 177.8 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,6 +6156,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 213.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 213.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d502ff7c-bb73-4e11-b5e3-ac7ef489bece")
 		)
@@ -5858,6 +6236,24 @@
 			)
 		)
 		(property "Description" "Speaker"
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3029316"
 			(at 198.12 110.49 0)
 			(effects
 				(font
@@ -5952,7 +6348,7 @@
 		(at 123.19 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cb9db3f3-7f95-4999-990f-22712eca5a0a")
@@ -5993,6 +6389,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 123.19 105.41 0)
 			(effects
 				(font
@@ -6173,7 +6587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 138.1252 58.42 0)
 			(effects
 				(font
@@ -6192,6 +6606,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C784103"
 			(at 137.16 54.61 0)
 			(effects
 				(font
@@ -6267,6 +6699,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 165.1 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C64705"
+			(at 165.1 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2b62e60-aee9-432d-b4a7-50c8889132d6")
 		)
@@ -6329,6 +6779,24 @@
 		)
 		(property "Description" "23W Stereo, Inductor-Less, Digital Input, Closed-Loop Class-D Audio Amplifier, HTSSOP-28"
 			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C478472"
+			(at 144.78 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,6 +6955,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C77020"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d8a228e3-f3dc-4c54-8ff0-6623ee87079b")
 		)
@@ -6507,7 +6993,7 @@
 		(at 109.22 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f15755ee-5bc9-4535-b659-f77934f08c87")
@@ -6548,6 +7034,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 109.22 113.03 0)
 			(effects
 				(font

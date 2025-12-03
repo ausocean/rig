@@ -2394,6 +2394,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C13585"
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "832a67d7-0f8d-48d0-8d3b-2ccf777cf8b2")
 		)
@@ -2529,6 +2547,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C627024"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "95509f55-2808-439e-a5c3-36d6f529df2e")
 		)
@@ -2611,6 +2647,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C13585"
 			(at 82.55 120.65 0)
 			(effects
 				(font
@@ -2754,6 +2808,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c02dcf7c-e247-483b-9653-f9381436c040")
 		)
@@ -2787,7 +2859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "22u"
 			(at 200.152 73.152 0)
 			(effects
 				(font
@@ -2796,7 +2868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 204.1652 74.93 0)
 			(effects
 				(font
@@ -2815,6 +2887,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C342620"
 			(at 203.2 71.12 0)
 			(effects
 				(font
@@ -3041,7 +3131,7 @@
 		(at 154.94 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3091,6 +3181,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 154.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 154.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "969b5240-078c-4ab4-bbc5-2f25983def6b")
 		)
@@ -3108,7 +3216,7 @@
 		(at 209.55 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3150,6 +3258,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 209.55 66.04 0)
 			(effects
 				(font
@@ -3215,6 +3341,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 116.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 116.84 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 116.84 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,6 +3575,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 151.13 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2936571"
+			(at 151.13 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d6d78124-ff34-4a6a-9309-842dbdc44ed1")
 		)
@@ -3631,6 +3793,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "10V"
+			(at 142.24 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 142.24 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f39262bd-2a9e-4ff2-9240-8ccc4417dca4")
 		)
@@ -3766,6 +3946,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C13585"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a564602-2268-48bd-818e-2dda97b7ec36")
 		)
@@ -3807,7 +4005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AusOcean:WE-XHMI_6060"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4030S"
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -3835,6 +4033,24 @@
 			)
 		)
 		(property "NOTE" "LOW DCR"
+			(at 129.54 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 129.54 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C167872"
 			(at 129.54 119.38 90)
 			(effects
 				(font
@@ -3978,6 +4194,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C342620"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f6f2f2b-4a13-4be1-859d-07e5a9d04732")
 		)
@@ -4046,6 +4280,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C780769"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b94b5485-3ff9-4b40-a167-6039a07c4aa1")
 		)
@@ -4091,7 +4343,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "22u"
 			(at 103.632 71.882 0)
 			(effects
 				(font
@@ -4127,6 +4379,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C342620"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4761dde2-aa6e-42aa-a02a-3f0ea11f1951")
 		)
@@ -4147,7 +4417,7 @@
 		(at 209.55 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4189,6 +4459,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 209.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 209.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 209.55 74.93 0)
 			(effects
 				(font
@@ -4329,6 +4617,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b2805a7-9c2d-4b9b-aa99-28546efbf076")
 		)
@@ -4362,7 +4668,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "22u"
 			(at 186.182 73.152 0)
 			(effects
 				(font
@@ -4371,7 +4677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 191.4652 74.93 0)
 			(effects
 				(font
@@ -4390,6 +4696,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C342620"
 			(at 190.5 71.12 0)
 			(effects
 				(font
@@ -4571,7 +4895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AusOcean:WE-XHMI_6060"
+		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
 			(at 196.85 66.04 0)
 			(effects
 				(font
@@ -4591,6 +4915,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 196.85 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C404500"
+			(at 196.85 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,6 +5075,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C342620"
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f89758c-b06a-452d-8493-e8ffaf2772b5")
 		)
@@ -4794,6 +5154,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15849"
 			(at 100.33 69.85 0)
 			(effects
 				(font

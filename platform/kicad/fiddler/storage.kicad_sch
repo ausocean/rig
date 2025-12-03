@@ -1595,6 +1595,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19702"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80a2b2ae-1d9e-4c94-8a77-81d537cb90d2")
 		)
@@ -1725,6 +1743,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C428492"
 			(at 166.37 85.09 0)
 			(effects
 				(font

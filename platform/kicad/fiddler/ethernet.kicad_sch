@@ -4409,6 +4409,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "518028a7-d13a-4910-9f83-8821624a9aab")
 		)
@@ -4543,6 +4561,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 194.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15849"
+			(at 194.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52974622-daa9-4b6d-9e89-3c54ccd9638c")
 		)
@@ -4605,6 +4641,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 149.86 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 149.86 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 149.86 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,6 +4801,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1be837a8-0d47-4d47-a207-47defde8aea1")
 		)
@@ -4816,8 +4888,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2683357"
-			(at 236.22 49.53 0)
+		(property "Voltage Rating" ""
+			(at 260.35 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2683357"
+			(at 260.35 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,6 +4991,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 241.3 148.59 0)
 			(effects
 				(font
@@ -5054,6 +5153,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 227.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 227.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "942cf82f-e3c1-4136-bf9c-26673d50729e")
 		)
@@ -5115,6 +5232,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1620"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -5256,6 +5391,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 50.8 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 50.8 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49532974-bc30-4a0f-9f97-3bff81289e2b")
 		)
@@ -5318,6 +5471,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 152.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 152.4 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 152.4 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,6 +5563,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "041beb5b-1404-4da8-ac4a-48dd3aab76d4")
 		)
@@ -5424,7 +5613,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF 2KV"
+		(property "Value" "1nF"
 			(at 214.376 52.07 90)
 			(effects
 				(font
@@ -5432,7 +5621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 213.36 52.3748 0)
 			(effects
 				(font
@@ -5452,6 +5641,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2kV"
+			(at 209.55 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C9196"
+			(at 209.55 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,6 +5735,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 254 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53987"
+			(at 254 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e98c8c59-36d7-4ac3-9cf7-3fa983abfdec")
 		)
@@ -5588,6 +5813,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 231.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 231.14 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 231.14 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,6 +5902,24 @@
 		)
 		(property "Description" ""
 			(at 229.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C70716"
+			(at 243.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,6 +6069,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "045175cc-81ca-4c25-9792-c986a02074ee")
 		)
@@ -5934,6 +6213,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19702"
 			(at 154.94 148.59 0)
 			(effects
 				(font
@@ -6206,6 +6503,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 247.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 247.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6635e804-303b-4477-aeae-72985e24146b")
 		)
@@ -6398,6 +6713,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 50.8 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 50.8 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,6 +7004,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 236.22 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14709"
+			(at 236.22 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c611ccc3-d829-42c4-a1b6-ce527cd745b9")
 		)
@@ -6910,6 +7261,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C840586"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "b55da744-d6e7-4f4d-89de-ab062a328a2c")
 		)
@@ -7001,6 +7370,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 260.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 260.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53987"
 			(at 260.35 148.59 0)
 			(effects
 				(font
@@ -7274,6 +7661,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 198.12 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 198.12 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e51d8d9d-6125-4704-95e9-4a73d9fea338")
 		)
@@ -7314,7 +7719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 160.3248 63.5 0)
 			(effects
 				(font
@@ -7333,6 +7738,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2kV"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C784413"
 			(at 161.29 67.31 0)
 			(effects
 				(font
@@ -7408,6 +7831,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 198.12 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 198.12 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d88306f-b698-4ed0-bb59-5ed31c7af92e")
 		)
@@ -7471,6 +7912,24 @@
 			)
 		)
 		(property "Description" "LAN8720 Ethernet PHY with RMII interface, QFN-24"
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C45223"
 			(at 76.2 100.33 0)
 			(effects
 				(font
@@ -7814,6 +8273,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53987"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "572b1567-81aa-4711-ada9-e3c06394de92")
 		)
@@ -7874,6 +8351,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 231.14 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 231.14 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,6 +8511,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07b0f6ce-aa1d-48f6-af3d-4aeff5e5848a")
 		)
@@ -8085,6 +8598,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 157.48 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 157.48 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ffe23095-eae9-48ad-85a4-a8f68102ee7e")
 		)
@@ -8146,6 +8677,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 264.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 264.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 264.16 111.76 0)
 			(effects
 				(font
@@ -8223,6 +8772,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 154.94 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 154.94 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce855f3c-4c99-40a3-9f1e-2e3e8d77d04e")
 		)
@@ -8283,6 +8850,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 50.8 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 50.8 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
