@@ -1,7 +1,7 @@
 (footprint "WE-XHMI_6060"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "<b>WE-XHMI SMT Power Inductor<br></b><br>Size: </b>6060, SMT, 2pins<br>L X W X H = 6.65mm X 6.45mm X 5.8mm")
 	(property "Reference" "REF**"
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d2d412e3-339c-49f9-98f5-58361745f3e0")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -110,7 +98,7 @@
 			(width 0.4)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "3bfad520-8281-4d62-b5b6-99d939243330")
 	)
@@ -122,7 +110,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.CrtYd")
 		(uuid "af9f9b0b-89d0-44c7-aec4-bd6726926f3e")
 	)
@@ -169,14 +157,14 @@
 	(pad "1" smd rect
 		(at 0 -2)
 		(size 5.5 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "3658a051-09c8-42cc-9b63-8d671f317075")
 	)
 	(pad "2" smd rect
 		(at 0 2)
 		(size 5.5 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "e4696290-68dd-4c5d-a620-71768cabd765")
 	)
@@ -198,6 +186,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -211,7 +203,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "11987ed5-dca0-4300-aa84-6d923c61e97c")
 		(hatch full 0.508)
 		(connect_pads
@@ -226,6 +223,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -236,7 +237,8 @@
 			)
 		)
 	)
-	(model "/home/david/Documents/ausocean/rig/platform/kicad/models/WE-XHMI-6060_rev1.stp"
+	(embedded_fonts no)
+	(model "${AUSOCEAN_3D}/WE-XHMI-6060_rev1.stp"
 		(offset
 			(xyz 0 0 0.5)
 		)
