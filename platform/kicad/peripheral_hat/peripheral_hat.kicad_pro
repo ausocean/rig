@@ -76,28 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|160743902|106404531|a8c8f261-dc09-477b-bcd4-71c2e8046521|bee66519-f5cf-4245-8f30-4c8cdcf4a87e",
-          ""
-        ],
-        [
-          "malformed_courtyard|155219000|92911000|3eee8ac0-d4a0-4de9-9f66-05d9e1a7836e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|155219000|97219000|3eee8ac0-d4a0-4de9-9f66-05d9e1a7836e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|160727000|92911000|3eee8ac0-d4a0-4de9-9f66-05d9e1a7836e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|160727000|97219000|3eee8ac0-d4a0-4de9-9f66-05d9e1a7836e|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -200,6 +179,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -211,6 +191,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -222,6 +203,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -511,6 +493,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -582,7 +565,6 @@
       "+3.3VA": "rgb(255, 0, 0)",
       "+3V3": "rgb(255, 0, 0)",
       "+5V": "rgb(255, 0, 0)",
-      "24V": "rgb(255, 0, 0)",
       "EXRES": "rgb(0, 255, 0)",
       "GND": "rgb(72, 72, 72)",
       "NLINK_LED": "rgb(0, 255, 0)",
@@ -602,7 +584,7 @@
       "VDDUSBPLL": "rgb(255, 0, 0)",
       "XI": "rgb(255, 255, 0)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -874,7 +856,7 @@
         "uuid": "8dfa5814-59de-42fa-a019-7b76c06633d1"
       }
     ],
-    "used_designators": "XTAL1,U1-2,L1,T1,H1-3,D1,C1-24,R1-13,J1-7,FB1-3,#PWR1-55",
+    "used_designators": "#PWR1-56,C1-24,D1,FB1-3,H1-3,J1-8,L1,R1-13,T1,U1-2,XTAL1",
     "variants": []
   },
   "sheets": [
