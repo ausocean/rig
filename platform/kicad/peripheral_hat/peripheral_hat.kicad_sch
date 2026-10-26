@@ -15970,6 +15970,53 @@
 		)
 	)
 	(sheet
+		(at 133.35 173.99)
+		(size 27.94 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0f392073-bf2a-480d-b5ef-32de8c528cf0")
+		(property "Sheetname" "USB Bridge"
+			(at 133.35 173.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_bridge.kicad_sch"
+			(at 133.35 188.5446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "peripheral_hat"
+				(path "/8dfa5814-59de-42fa-a019-7b76c06633d1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 19.05 53.34)
 		(size 16.51 28.575)
 		(exclude_from_sim no)

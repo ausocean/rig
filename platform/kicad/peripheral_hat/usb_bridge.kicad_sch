@@ -1,0 +1,762 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5d5ec586-6dc5-43e8-8ac9-7a0133965f33")
+	(paper "A4")
+	(lib_symbols
+		(symbol "lcsc_imported:ZX80-B-5SA(30)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "USB"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZX80-B-5SA(30)"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C598212_MICRO-USB_SMD_ZX80-B-5SA-30"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006112256_HRS-Hirose-ZX80-B-5SA-30_C598212.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ZX80-B-5SA(30)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C598212"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "HRS(广濑)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ZX80-B-5SA(30)_1_1"
+				(rectangle
+					(start -7.62 8.89)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 7.62)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 116.84 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "189090cc-4d33-43a5-b133-bf952e94fed9")
+	)
+	(junction
+		(at 116.84 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "520acb68-20da-4786-8425-5a6e941accf4")
+	)
+	(junction
+		(at 143.51 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "760c5530-7d6f-40a5-9432-1e68695637e9")
+	)
+	(junction
+		(at 90.17 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a47c4732-97ab-4ab1-b256-45539e29214c")
+	)
+	(junction
+		(at 143.51 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa029974-8b18-46b7-a59d-28ad53b0e640")
+	)
+	(junction
+		(at 143.51 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd94f780-c284-4e66-8842-8749811b70a4")
+	)
+	(junction
+		(at 90.17 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da92c876-0db0-4c66-ba6b-b9c2a63a0cc4")
+	)
+	(junction
+		(at 90.17 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e52894ff-f984-4511-bb5d-e879f7cf31f9")
+	)
+	(wire
+		(pts
+			(xy 116.84 105.41) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0424e85e-bb21-472b-aa5d-70e67594a03b")
+	)
+	(wire
+		(pts
+			(xy 90.17 105.41) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a60ba3e-f788-4408-8383-8e4f011a8551")
+	)
+	(wire
+		(pts
+			(xy 143.51 100.33) (xy 143.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2670d959-af10-493b-a6fe-5c3bd308d691")
+	)
+	(wire
+		(pts
+			(xy 110.49 92.71) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee042a0-b10b-4b29-b1c6-10aee44e3dcb")
+	)
+	(wire
+		(pts
+			(xy 90.17 95.25) (xy 90.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b52448a-7ef7-474f-baca-e1484a28161a")
+	)
+	(wire
+		(pts
+			(xy 110.49 100.33) (xy 123.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb48b76-4394-456e-a180-38d3d09bfc3c")
+	)
+	(wire
+		(pts
+			(xy 110.49 97.79) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f7e012-1f9d-42ef-b394-a4562c6d6c4d")
+	)
+	(wire
+		(pts
+			(xy 90.17 97.79) (xy 90.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0653dc-fca1-493e-899e-2950bb0b0628")
+	)
+	(wire
+		(pts
+			(xy 110.49 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c79121-a44a-4c8f-b922-203516d4a27f")
+	)
+	(wire
+		(pts
+			(xy 90.17 92.71) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc2af21-59f9-4ab5-96ad-6ad686bf195e")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 143.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba82935f-014a-404b-ae95-52a65e9cb0eb")
+	)
+	(wire
+		(pts
+			(xy 90.17 100.33) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbdff70e-2887-4164-8b92-2a90914a8c19")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 143.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50bac37-81ae-49fd-9af9-7e7efc4dbce8")
+	)
+	(wire
+		(pts
+			(xy 110.49 102.87) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0c56b4-f39a-45ba-b74f-6928495e2a5c")
+	)
+	(wire
+		(pts
+			(xy 143.51 97.79) (xy 143.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14297a3-6032-4dc3-acd6-4eefda4d9aa9")
+	)
+	(wire
+		(pts
+			(xy 143.51 105.41) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f754a8d4-c51d-43ce-8c9e-ee0b63f786db")
+	)
+	(wire
+		(pts
+			(xy 116.84 102.87) (xy 123.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb439155-7fb7-47ed-b71e-b40e09225abc")
+	)
+	(label "D+"
+		(at 115.57 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61ed0585-5c45-49be-bd94-03d8f28ac292")
+	)
+	(label "D-"
+		(at 115.57 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "883e6c91-ed7f-416b-8343-688cd5c53025")
+	)
+	(symbol
+		(lib_id "lcsc_imported:ZX80-B-5SA(30)")
+		(at 133.35 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e6f8a29-4f60-4282-8095-c178a3dabdbe")
+		(property "Reference" "USB1"
+			(at 133.35 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZX80-B-5SA(30)"
+			(at 133.35 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C598212_MICRO-USB_SMD_ZX80-B-5SA-30"
+			(at 133.35 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006112256_HRS-Hirose-ZX80-B-5SA-30_C598212.pdf"
+			(at 131.064 97.663 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ZX80-B-5SA(30)"
+			(at 133.35 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C598212"
+			(at 133.35 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRS(广濑)"
+			(at 133.35 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "b33e2623-903a-4dc0-bb5a-0968e26feea9")
+		)
+		(pin "5"
+			(uuid "105c09de-a361-4bb8-b71a-56bc05d2714e")
+		)
+		(pin "3"
+			(uuid "c72309cf-c2aa-4270-9cc5-c82c1c9bec14")
+		)
+		(pin "1"
+			(uuid "92ecdb2d-679e-4e46-9fcc-8f015c6fb1f0")
+		)
+		(pin "9"
+			(uuid "f6612e99-33d3-4695-abea-c3ae6bbbec7a")
+		)
+		(pin "2"
+			(uuid "28814ca7-3096-413a-a36c-d1f73c3ee47d")
+		)
+		(pin "4"
+			(uuid "f9bab686-f3dd-40f5-aa52-f24a33225151")
+		)
+		(pin "7"
+			(uuid "5bb669f5-a6f3-4c43-bd08-3e0abfc83da2")
+		)
+		(pin "8"
+			(uuid "f4272f4f-0f52-4c7b-b141-29e5b0ff8bd7")
+		)
+		(instances
+			(project "peripheral_hat"
+				(path "/8dfa5814-59de-42fa-a019-7b76c06633d1/0f392073-bf2a-480d-b5ef-32de8c528cf0"
+					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:ZX80-B-5SA(30)")
+		(at 100.33 97.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b556bf1e-247e-43b9-bb2b-1a892e2946b1")
+		(property "Reference" "USB2"
+			(at 100.33 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZX80-B-5SA(30)"
+			(at 100.33 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C598212_MICRO-USB_SMD_ZX80-B-5SA-30"
+			(at 100.33 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006112256_HRS-Hirose-ZX80-B-5SA-30_C598212.pdf"
+			(at 102.616 97.663 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ZX80-B-5SA(30)"
+			(at 100.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C598212"
+			(at 100.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRS(广濑)"
+			(at 100.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "91b65bee-16f3-4b5e-8dc3-7b1cfe9541be")
+		)
+		(pin "5"
+			(uuid "44a4f3f5-e7cd-4cc1-b8a1-cf1a1f8be74a")
+		)
+		(pin "3"
+			(uuid "8debec2d-478f-4884-908d-340bb2279969")
+		)
+		(pin "1"
+			(uuid "bc96bb06-e1e6-4c3c-9d06-ff81ba27db1a")
+		)
+		(pin "9"
+			(uuid "5847e4cd-f88f-41d0-a6b9-b00041c822d5")
+		)
+		(pin "2"
+			(uuid "55e60d8a-91f7-424c-a56d-d87822ff6217")
+		)
+		(pin "4"
+			(uuid "2d447165-2ffd-47d0-b5a2-89331cfd33e3")
+		)
+		(pin "7"
+			(uuid "1fceeb84-4a9c-4826-b3b9-e9ba883cfc9d")
+		)
+		(pin "8"
+			(uuid "7dff0bd7-37ac-459b-bc08-022256bf7abc")
+		)
+		(instances
+			(project "peripheral_hat"
+				(path "/8dfa5814-59de-42fa-a019-7b76c06633d1/0f392073-bf2a-480d-b5ef-32de8c528cf0"
+					(reference "USB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
