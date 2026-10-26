@@ -76,7 +76,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|179250000|106760000|dc6c4a87-2cfe-434c-8c33-2165ee5d9cb3|7a324d2b-410c-4ee8-ad17-0b0f744acc09",
+          ""
+        ],
+        [
+          "silk_edge_clearance|179250000|99140000|dc6c4a87-2cfe-434c-8c33-2165ee5d9cb3|08d543f6-98c6-4e8a-a2a8-6fc51b4301aa",
+          ""
+        ],
+        [
+          "starved_thermal|190067567|97629108|5e1b0548-d668-4406-8d9e-ae0bba724bb9|79db7947-90dd-4759-aa00-e4858a260a2e|F.Cu",
+          "IC has enough GND pins"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -511,7 +524,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "AusOcean"
+      "AusOcean",
+      "lcsc_imported"
     ]
   },
   "meta": {
@@ -856,7 +870,7 @@
         "uuid": "8dfa5814-59de-42fa-a019-7b76c06633d1"
       }
     ],
-    "used_designators": "#PWR1-56,C1-24,D1,FB1-3,H1-3,J1-8,L1,R1-13,T1,U1-2,XTAL1",
+    "used_designators": "#PWR1-59,C1-24,D1,FB1-3,H1-3,J1-8,L1,R1-13,T1,U1-2,USB1-2,XTAL1",
     "variants": []
   },
   "sheets": [
